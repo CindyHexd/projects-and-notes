@@ -1,3 +1,3 @@
-Cindy He personal technical portfolio (Astro).
+Cindy He — projects and notes (Astro).
 
-**Access site:** [https://cindyhexd.github.io/technical-portfolio-cindyhe/](https://cindyhexd.github.io/projects-and-notes/)
+**Access site:** [https://cindyhexd.github.io/projects-and-notes/](https://cindyhexd.github.io/projects-and-notes/)
