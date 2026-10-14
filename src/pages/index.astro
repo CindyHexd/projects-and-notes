@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout title="Cindy He — Portfolio" description="Technical portfolio and projects">
+<BaseLayout title="Cindy He — Projects and notes" description="Projects and notes">
   <div class="shell">
     <header class="site-header">
       <span class="site-name">Cindy He</span>
@@ -10,7 +10,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
     <main class="home">
       <section class="intro">
-        <h1 class="headline">Technical portfolio</h1>
+        <h1 class="headline">Projects and notes</h1>
         <p class="summary">
           Selected project documentations and prototypes.
         </p>
@@ -42,6 +42,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
               <span class="project-meta">Mobile UI (Figma)</span>
               <span class="project-desc">
                 Story archive mobile app aimed to bridge generational gaps. 
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="project" href={`${import.meta.env.BASE_URL}linear-algebra/`}>
+              <span class="project-name">Intro Linear Algebra concepts (⏸️ On hold)</span>
+              <span class="project-meta">Education · Web</span>
+              <span class="project-desc">
+                Intro linear algebra course concepts, each concept presented mathematically, graphically, and in Chinglish.
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="project" href={`${import.meta.env.BASE_URL}signals-and-systems/`}>
+              <span class="project-name">Signals and Systems concepts (⏸️ On hold)</span>
+              <span class="project-meta">Education · Web</span>
+              <span class="project-desc">
+                Intro signals and systems course concepts, each concept presented mathematically, graphically, and in Chinglish.
               </span>
             </a>
           </li>
